@@ -17,7 +17,9 @@ def displayStudent(name, age):
     
     print(name, age)
 
-showStudent = displayStudent
-    
+showStudent = displayStudent #assign the name. do not call the function
+# A function is given a name when it is defined, but that name can be reassigned to 
+# refer to a different object if desired (don't do this unless you mean to!)
+# this function can then be called with the new variable as well as with the old one.
 
 showStudent('Fiona', 26)
