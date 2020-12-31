@@ -3,8 +3,8 @@
 
 letters = ['A', 'b', 'c', 'D', 'c', 'e']
 
-def to_lower(char):
+def to_upper_lower(char):
     return char.upper(), char.lower()
 
-lettrs =set(map(to_lower, letters))
+lettrs =set(map(to_upper_lower, letters))
 print(lettrs)
